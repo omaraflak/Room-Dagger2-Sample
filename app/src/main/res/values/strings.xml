@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RoomExample</string>
+
+    <string name="load">Load 1st user from DB</string>
+</resources>
