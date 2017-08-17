@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         uid.setText(String.format(Locale.getDefault(),"uid : %d", user.getUid()));
         firstName.setText(String.format("first_name : %s", user.getFirstName()));
         lastName.setText(String.format("last_name : %s", user.getLastName()));
-        age.setText(String.format(Locale.getDefault(),"age :%d", user.getAge()));
+        age.setText(String.format(Locale.getDefault(),"age : %d", user.getAge()));
     }
 
     private class Request extends AsyncTask<Void,Void,User>{
