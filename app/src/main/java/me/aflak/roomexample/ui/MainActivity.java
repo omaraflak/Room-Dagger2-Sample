@@ -3,7 +3,6 @@ package me.aflak.roomexample.ui;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TextView;
 
 import java.util.Locale;
@@ -12,7 +11,6 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 import me.aflak.roomexample.MyApp;
 import me.aflak.roomexample.R;
 import me.aflak.roomexample.database.UserDao;
